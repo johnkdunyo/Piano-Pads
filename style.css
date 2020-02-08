@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+   text-align: center;
+}
+
+.app{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+header p{
+    font-size: 20px;
+    margin: 30px 0px 30px 0px;
+}
+
+.pads {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+    padding-top: 0%;
+}
+
+.pads >div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.pad1{
+    background: lightcoral;
+}
+
+.pad2 {
+    background: lightcyan;
+}
+.pad3 {
+    background: lightsalmon;
+}
+
+.pad4{
+    background: lightseagreen;
+}
+
+.pad5{
+    background: lime;
+}
+
+.pad6{
+    background: maroon;
+}
+
+.pad7{
+    background: teal;
+}
+.pad8 {
+    background: tomato;
+}
+.keys{
+    text-align: center;
+    padding-top: 30px;
+    display: inline-block;  
+    font-size: 16px;  
+    text-decoration: none;
+}
+
+
+#field {
+    height: 350px;
+    border-bottom: 3px black groove;
+    position: relative;
+}
+  
+#ball {
+    position: absolute;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+
+.playagain { 
+    color: #0099CC; 
+    background: transparent;     
+    border: 2px solid #0099CC;
+    border-radius: 70px;    
+    text-decoration: none;      
+    text-transform: uppercase;  
+    border: none;      
+    color: white;   
+    padding: 11px 30px;   
+    text-align: center;    
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 12px;      
+    margin: 2px 2px;     
+    -webkit-transition-duration: 0.4s;   
+    transition-duration: 0.3s;      
+    cursor: pointer;
+}
+
+.playagain {      
+    background-color: white;       
+    color: black;       
+    border: 2px solid #008CBA;
+}
+
+.playagain:hover { 
+    background-color: #008CBA;      
+    color: white;
+}
+
+.scorer{
+     float: right;
+}
